@@ -1,0 +1,68 @@
+hr {
+    width: 30px;
+    color: #000!important;
+    border-top: 1px solid #000;
+
+}
+
+#sobre{
+    background: #efefef;
+    z-index: 4;
+    position: relative;
+    margin-top: 300px;
+    padding-top:50px;
+    color: #000!important;
+    height: 1800px;
+}
+
+@media (min-width: 991px){
+.footer {
+    position: relative;
+    bottom: 20px;
+}
+}
+
+.motto-black{
+    color: #000!important
+}
+
+.main .logo.cursive {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+.form-control {
+    padding: 28px 16px !important;
+}
+
+.btn {
+    padding: 17px 16px !important;
+}
+
+.main .motto {
+    min-height: 120px;
+}
+
+.video-sobre{
+    margin-top: 100px
+}
+
+.desc-sobre{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 120px
+}
+
+.main .motto, .main .subscribe .info-text {
+    font-size: 40px;
+}
+
+.cover.black {
+    background-color: rgba(33, 210, 255, 0.2);
+}
+
+.btn-fill{
+    background: white!important;
+    color: #000!important;
+    border: #fff
+}
