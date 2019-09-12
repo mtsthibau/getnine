@@ -6,7 +6,7 @@ hr {
 }
 
 #sobre{
-    background: #efefef;
+    background: #ffffff;
     z-index: 4;
     position: relative;
     margin-top: 300px;
@@ -26,6 +26,19 @@ hr {
     height: 1665px;
     padding-left: 90px;
     padding-right: 90px
+}
+
+#contato{
+    background: #fefefe;
+    z-index: 4;
+    position: relative;
+    color:#000;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer {
+    background: #cecece;
 }
 
 @media (min-width: 991px){
@@ -89,4 +102,23 @@ hr {
 .card-body{
     padding:20px 20px 20px 20px;
 
+}
+
+.card-title{
+    font-size: 25px;
+    margin-bottom: 60px
+}
+
+.card-text{
+    margin-bottom: 60px
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: absolute
+}
+
+@media (min-width: 1200px){
+.container {
+    width: 1500px;
+}
 }
